@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
-import { AngularDraggableDirective } from './directive/angular-draggable.directive';
-export * from './directive/angular-draggable.directive';
+import { AngularDragonDirective } from './directive/angular-dragon.directive';
+export * from './directive/angular-dragon.directive';
 export var AngularDraggableModule = (function () {
-    function AngularDraggableModule() {
+    function AngularDragonModule() {
     }
-    AngularDraggableModule.decorators = [
+    AngularDragonModule.decorators = [
         { type: NgModule, args: [{
                     declarations: [
-                        AngularDraggableDirective
+                        AngularDragonDirective
                     ],
                     exports: [
-                        AngularDraggableDirective
+                        AngularDragonDirective
                     ]
                 },] },
     ];
-    AngularDraggableModule.ctorParameters = function () { return []; };
-    return AngularDraggableModule;
+    AngularDragonModule.ctorParameters = function () { return []; };
+    return AngularDragonModule;
 }());
 //# sourceMappingURL=index.js.map

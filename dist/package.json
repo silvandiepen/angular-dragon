@@ -1,37 +1,34 @@
 {
-  "name": "angular2-draggable",
-  "version": "1.0.2",
+  "name": "angular-dragon",
+  "version": "0.0.3",
   "license": "MIT",
   "scripts": {
     "build": "ngc -p src"
   },
-  "author": "Xie Ziyu <xieziyu@foxmail.com> (https://xieziyu.github.io/)",
-  "keywords": [
-    "angular",
-    "2",
-    "4",
-    "draggable",
-    "ng"
-  ],
+  "author": "Sil van Diepen <me@silvandiepen.com> (https://silvandiepen.com/)",
+  "keywords": [ "angular", "2", "4", "draggable", "ng" ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/xieziyu/angular2-draggable.git"
+    "url": "git+ssh://git@github.com/silvandiepen/angular-dragon.git"
   },
   "bugs": {
-    "url": "https://github.com/xieziyu/angular2-draggable/issues",
-    "email": "xieziyu@foxmail.com"
+    "url": "https://github.com/silvandiepen/angular-dragon/issues",
+    "email": "me@silvandiepen.com"
   },
-  "homepage": "https://github.com/xieziyu/angular2-draggable#readme",
-  "main": "./lib/angular-draggable.module.js",
+  "homepage": "https://github.com/silvandiepen/angular-dragon#readme",
+  "main": "./lib/angular-dragon.module.js",
+  "dependencies": {
+    "@angular/common": "^2.4.0",
+    "@angular/compiler": "^2.4.0",
+    "@angular/core": "^2.4.0",
+    "@angular/platform-browser": "^2.4.0",
+    "@angular/platform-browser-dynamic": "^2.4.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.7.6"
+  },
   "devDependencies": {
     "@angular/compiler-cli": "^2.4.0",
     "typescript": "~2.0.0"
-  },
-  "peerDependencies": {
-    "@angular/common": "^2.4.0 || ^4.0.0",
-    "@angular/compiler": "^2.4.0 || ^4.0.0",
-    "@angular/core": "^2.4.0 || ^4.0.0",
-    "@angular/platform-browser": "^2.4.0 || ^4.0.0",
-    "@angular/platform-browser-dynamic": "^2.4.0 || ^4.0.0"
   }
 }

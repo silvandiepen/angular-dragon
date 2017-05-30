@@ -1,5 +1,5 @@
-# angular2-draggable [![npm version](https://badge.fury.io/js/angular2-draggable.svg)](http://badge.fury.io/js/angular2-draggable) [![npm downloads](https://img.shields.io/npm/dm/angular2-draggable.svg)](https://npmjs.org/angular2-draggable)
-Angular directive (for version >= 2.x ) that makes the DOM element draggable. Please refer to the [demo](https://xieziyu.github.io/#/angular2-draggable/demo) page.
+# Thanks for the base: 
+https://xieziyu.github.io/#/angular2-draggable/demo
 
 ## Table of contents 
 1. [Getting Started](#getting-started)
@@ -26,7 +26,7 @@ Please refer to the [demo](https://xieziyu.github.io/#/angular2-draggable/demo) 
     @NgModule({
       imports: [
         ...,
-        AngularDraggableModule
+        NgDragon
       ],
       ...
     })
@@ -63,7 +63,7 @@ Please refer to the [demo](https://xieziyu.github.io/#/angular2-draggable/demo) 
 When `ngDraggable` is enabled on some element, `ng-draggable` class is automatically assigned to it. You can use it to customize the pointer style. For example:
 
 ```css
-.ng-draggable {
+.ng-drag {
   cursor: move;
 }
 ```
